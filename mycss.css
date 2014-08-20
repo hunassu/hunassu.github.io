@@ -1,0 +1,107 @@
+/* mycss.css */
+#main {
+	height:800px;
+}
+
+#container {
+	overflow:hidden;
+	padding-top:60px;
+	height:2500px;
+}
+
+p {
+	font-size: 23px;
+	word-wrap: break-word;	//英文のブロック要素の端で折り返し
+
+}
+#news p {
+	padding-left:10px;
+	padding-right:30px;}
+}
+
+
+.primary{
+	width:250px;
+	height:20px;
+}
+
+.title {
+	padding:3px 5px;
+	border-color:#6AA2DB;
+	border-width:0px 20px 0px 0px;
+	border-style:solid;
+	background:#98C5F3;
+	width:200px;
+	margin-top:3px;
+}
+
+.tww {
+	font-size:20px;
+	padding:3px 5px;
+	border-color:#0B0099;
+	border-width:0 0 1px 7px;
+	border-style:solid;
+	background:#F8F8F8;
+	width:300px;
+}
+
+#share .tww{
+	width:600px;
+	margin-bottom:20px;
+}
+
+#share {
+	margin-top:100px;
+}
+
+#recommend {
+	margin-top:30px;
+}
+
+#recommend p{
+	font-size:20px;
+	background:#ddddff;
+}
+
+.smallArticle {
+	margin-top:20px;
+	border-style:solid;
+	border-color: #ccccff;
+	border-width:1px;
+}
+
+#rightbar img {
+	margin-left:60px;
+	width:80px;
+}
+
+#rightbar .tww{
+	margin-bottom:20px;
+}
+
+#rightbar p {
+	font-size:20px;
+}
+
+.waku {
+	padding-left:30px;
+}
+
+.rightM {
+	padding-left:40px;
+}
+
+.title {
+	margin-left:10px;
+}
+
+#pagetop {
+	position: fixed;
+	top: 95%;
+	left: 0;
+}
+
+#footer {
+	background-color: #d3d3d3;
+	text-align:center;
+}
