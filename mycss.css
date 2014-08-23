@@ -62,10 +62,10 @@ p {
 
 .shareButton{
 	float:left;
-	margin-left:5px;
+	margin-left:15px;
 	width:100px;
 	height:85px;
-	background-color:#ffffff;
+	background-color:#ffffcc;
 }
 
 #recommend {
