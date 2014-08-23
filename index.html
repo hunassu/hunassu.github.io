@@ -154,24 +154,20 @@
 								<a data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a>
 								<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
 							</div>
-							<!--Feedly-->
-<a href="http://cloud.feedly.com/#subscription%2Ffeed%2F<?php echo rawurlencode( get_bloginfo( 'rss2_url' ) ); ?>"
-   class="feedlyButton"
-   target="_blank"
-   title="<?php bloginfo('name'); ?>のRSSをFeedlyで購読してみませんか">
-    <div class="arrow_box_feedly">
-    <span class="feedlyCount">
-        <?php echo number_format_i18n( get_transient( 'feedly_subscribers' ) ); ?>
-    </span>
-    </div>
-    <img id="feedlyFollow" src="http://s3.feedly.com/img/follows/feedly-follow-rectangle-flat-small_2x.png"
-         alt="follow us in feedly" width="66" height="20">
-</a>
 							<!--Google-->
 							<div class="shareButton">
 								<span class="g-plus shareButton" data-action="share" data-annotation="vertical-bubble" data-height="60" style="margin-left:5px; width:80px; margin-right:5px;">
 								</span>
 							</div>
+							<!--Feedly-->
+							<a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fhunassu.github.io'  target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-medium_2x.png' alt='follow us in feedly' width='71' height='28'></a>
+							<!--Lien-->
+							<span>
+								<script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
+								<script type="text/javascript">
+new media_line_me.LineButton({"pc":false,"lang":"ja","type":"a"});
+								</script>
+							</span>
 						</div><!--share-->
 						<div id="recommend">
 							<div class="tww">Recommended Article</div>
