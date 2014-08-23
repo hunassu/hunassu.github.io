@@ -106,8 +106,8 @@ p {
 }
 
 #pagetop {
-	background-color:rgba(255,255,255,0.7);
-	height:28px;
+	background-color:rgba(0,255,255,0.7);
+	height:32px;
 	position: fixed;
 	top: 92%;
 	left: 0;
