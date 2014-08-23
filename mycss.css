@@ -63,7 +63,7 @@ p {
 .shareButton{
 	float:left;
 	margin-left:10px;
-	margin-right:14px;
+	margin-right:13px;
 	margin-bottom:30px;
 	height:65px;
 	background-color:#ffffcc;
@@ -90,7 +90,7 @@ p {
 }
 
 #rightbar img {
-	margin-left:60px;
+	margin-left:65px;
 	width:80px;
 }
 
