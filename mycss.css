@@ -63,9 +63,9 @@ p {
 .shareButton{
 	float:left;
 	margin-left:5px;
-	margin-right:5px;
-	margin-bottom:20px;
-	height:75px;
+	margin-right:7px;
+	margin-bottom:25px;
+	height:70px;
 	background-color:#ffffcc;
 }
 
