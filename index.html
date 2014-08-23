@@ -156,7 +156,16 @@
 							</div>
 							<!--Feedly-->
 							<div class="shareButton">
-
+<?php
+// RSS feed のURLをエンコード
+$feed_url = rawurlencode( 'http://webmemo.biz/feed' );
+// 購読情報をJsonで取得して購読者数だけ頂く
+$subscribers = file_get_contents( "http://cloud.feedly.com/v3/feeds/feed%2F$feed_url" );
+$subscribers = json_decode( $subscribers );
+$subscribers = $subscribers->subscribers;?>
+<div id="feedly-followers" class="over">
+<span class="subscribers" id="feedlyCount"><?php echo $subscribers; ?></span>
+<a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fwebmemo.biz%2Ffeed' target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-medium_2x.png' alt='follow us in feedly' width='71' height='28'></a>
 							</div>
 							<!--Google-->
 							<div class="shareButton">
