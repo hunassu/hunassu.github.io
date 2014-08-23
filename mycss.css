@@ -1,12 +1,18 @@
 /* mycss.css */
 #main {
-	height:800px;
+	height:100%;
+}
+
+
+html,body {
+	height:100%;
 }
 
 #container {
 	overflow:hidden;
 	padding-top:60px;
-	height:2500px;
+	height:100%;
+	margin-bottom:200px;
 }
 
 p {
@@ -104,4 +110,6 @@ p {
 #footer {
 	background-color: #d3d3d3;
 	text-align:center;
+	height:20px;
+	bottom:0;
 }

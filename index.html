@@ -1,168 +1,229 @@
 <!doctype html>
 <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
-<head>
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css"><meta charset="utf-8">
+	<head>
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css"><meta charset="utf-8">
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Gumby - A Flexible, Responsive CSS Framework - Powered by SASS</title>
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="humans.txt">
+		<title>HunasuHome</title>
+		<meta name="description" content="必ずあなたに役立つ便利なサイト情報やパソコン初心者向けの記事にして紹介しています" />
+		<meta name="keywords" content="便利なサイト,初心者,パソコン" />
+		<meta name="author" content="humans.txt">
 
-	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 
-	<!-- Facebook Metadata /-->
-	<meta property="fb:page_id" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:description" content=""/>
-	<meta property="og:title" content=""/>
-	
-	<!-- Google+ Metadata /-->
-	<meta itemprop="name" content="">
-	<meta itemprop="description" content="">
-	<meta itemprop="image" content="">
+		<!-- Facebook Metadata /-->
+		<meta property="fb:page_id" content="100005958049230" />
+		<meta property="og:image" content="" />
+		<meta property="og:description" content="記事の説明だよ～"/>
+		<meta property="og:title" content="Home"/>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+		<!-- Google+ Metadata /-->
+		<meta itemprop="name" content="">
+		<meta itemprop="description" content="">
+		<meta itemprop="image" content="">
 
-	<link rel="stylesheet" href="css/gumby.css">
-	<link rel="stylesheet" href="mycss.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-	<script src="js/libs/modernizr-2.6.2.min.js"></script>
-</head>
+		<link rel="stylesheet" href="css/gumby.css">
+		<link rel="stylesheet" href="mycss.css">
 
-<body
-	><div class="navbar" id="nav1">
+		<script src="js/libs/modernizr-2.6.2.min.js"></script>
+	</head>
+	<!--body-->
+	<body>
+		<div class="navbar" id="nav1">
+			<div class="row">
+				<a class="toggle" gumby-trigger="#nav1 > .row > ul" href="#"><i class="icon-menu"></i></a>
+				<h1 class="four columns logo">
+					<a href="#">
+						<img src="picture/Logo/HunassuLife3.png" gumby-retina />
+					</a>
+				</h1>
+				<ul class="eight columns">
+					<li><a href="Home.html">Home</a></li>
+					<li>
+						<a href="">Article</a>
+						<div class="dropdown">
+							<ul>
+								<li>
+									<a href="#">Helpful Site</a>
+									<div class="dropdown">
+										<ul>
+											<li><a href="EvernoteArticle.html">Evernote</a></li>
+											<li><a href="DropboxArticle.html">Dropbox</a></li>
+											<li><a href="DotinstallArticle.html">Dotinstall</a></li>
+											<li><a href="">nested</a></li>
+											<li><a href="">nested</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#">Helpful App</a></li>
+								<li>
+									<a href="#">Convenient Skill</a>
+									<div class="dropdown">
+										<ul>
+											<li><a href="">Shortcut Key</a></li>
+											<li><a href="">nested</a></li>
+											<li><a href="">nested</a></li>
+											<li><a href="">nested</a></li>
+											<li><a href="">nested</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">Programing</a>
+									<div class="dropdown">
+										<ul>
+											<li><a href="">Clang</a></li>
+											<li><a href="">Java</a></li>
+											<li><a href="">Objective-c</a></li>
+											<li><a href="">Winodws</a></li>
+											<li><a href="">PHP</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#">Gadget</a></li>
+								<li><a href="#">Game</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="">The first step</a>
+						<div class="dropdown">
+							<ul>
+								<li><a href="BrowserArticle.html">Browser</a></li>
+								<li><a href="YahooMailArticle.html">Mail</a></li>
+								<li><a href="AmazonArticle.html">Shopping</a></li>
+								<li><a href="SNSArticle.html">SNS</a></li>
+								<li><a href="ImportantWordArticle.html">Important Word</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">Others</a></li>
+				</ul><!--eight columns-->
+			</div><!--row-->
+		</div><!--navbar-->
 		<div class="row">
-			<a class="toggle" gumby-trigger="#nav1 > .row > ul" href="#"><i class="icon-menu"></i></a>
-			<h1 class="four columns logo">
-				<a href="#">
-					<img src="img/HunassuLife4" gumby-retina />
-				</a>
-			</h1>
-			<ul class="eight columns">
-				<li><a href="http://digitalsurgeons.com">Home</a></li>
-				<li>
-					<a href="http://digitalsurgeons.com">Article</a>
-					<div class="dropdown">
-						<ul>
-							<li><a href="#">Programing</a></li>
-							<li><a href="#">Helpful Site</a></li>
-							<li>
-								<a href="#">I HAVE STUFF NESTED UNDER ME</a>
-								<div class="dropdown">
-									<ul>
-										<li><a href="http://digitalsurgeons.com">nested</a></li>
-										<li><a href="">nested</a></li>
-										<li><a href="">nested</a></li>
-										<li><a href="">nested</a></li>
-										<li><a href="">nested</a></li>
-									</ul>
-								</div>
-							</li>
-							<li><a href="#">Gadged</a></li>
-							<li><a href="#">Game</a></li>
-							<li><a href="#">Item</a></li>
+			<div id="container">
+				<div id="main" class="twelve columns" style="background:white">
+					<div id="news" class="nine columns" style="">
+						<h2>このサイトで何をえられるのか？</h2>
+						<div id="skiplink_2">
+							<p class="skiplink medium primary"><a href="#" gumby-goto="#skiplink_3" gumby-duration="2000" gumby-offset="-60">ちょっと便利に</a></p>
+							<p class="skiplink medium primary"><a href="#" gumby-goto="#skiplink_4" gumby-duration="2000" gumby-offset="-60">最初の一歩</a></p>
+							<p class="skiplink medium primary"><a href="#" gumby-goto="#skiplink_5" gumby-duration="2000" gumby-offset="-60">プログラミング</a></p>
+						</div>
+						<div id="skiplink_3" style="position: relative;">
+							<h3>便利なサイトをとことん知る<br>未完成サイト</h3>
+							<p>初めてAmazonを使った時どんなことを感じましたか？今までならば近くで手にはいらないものは労力と時にはお金をかけて遠くまで行って買いに行ってたのが、家で尚且つ簡単な操作で買えるようになりました。</p>
+						</div>
+						<div id="skiplink_4" style="position: relative;">
+							<h3>パソコン初心者を脱出</h3>
+							<ul class="disc">
+								<li>「とりあえずパソコン買ったけど人のブログ見るので精一杯」</li>
+								<li>「ワードで書類作るぐらいかなぁ」</li>
+							</ul class="disc">
+							<p>ここから一歩踏み出しショッピングを楽しんだり、動画を楽しんだりしましょう！<br>このページまで来れたらならきっとすぐに楽しめますよ</p>
+						</div>
+						<div id="skiplink_5" style="position: relative;">
+							<h3>プログラミングを知る</h3>
+							<p>ゆる～くプログラミングについての記事も書いてます。まだまだ未熟ながら</p>
+						</div>
+						<div>
+							<h3>まだまだ伝えたいことも</h3>
+							<p>ゲームや日常生活で起きた何気ないことも記事にしたりします</p>
+						</div>
+						<p class="skiplink medium default">
+						<a href="#" id="pagetop" gumby-goto="top"><i class="icon-up-open-big"></i> Top of page</a>
+						</p>
+						<div id="share">
+							<div class="tww">ShareButton</div>
+							<!--Twitter-->
+							<a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="LoathingAnd" data-lang="ja">ツイート</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+							<!--Facebook-->
+							<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;width&amp;layout=box_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=65" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:65px;" allowTransparency="true"></iframe>
+						</div><!--share-->
+						<div id="recommend">
+							<div class="tww">Recommended Article</div>
+							<div class="five columns smallArticle">
+								<p>ノートのように管理Evernote</p>
+								<img src="picture/EvernoteHome.PNG">
+							</div>
+							<div class="five columns smallArticle">
+								<p>Dropboxだよ～</p>
+								<img src="picture/DropboxHome.PNG">
+							</div>
+						</div>
+					</div><!--news-->
+					<div id="rightbar" class="three columns" style="">
+						<div class="tww">SELF-INTRODUCTIOR</div>
+						<img src="picture/Icon/MyIconGreen.png">
+						<div class="waku">
+							<p style="font-size:16px;margin-bottom:0px;">Name : ふなす<br></p>
+							<p style="font-size:12px;">とても少ない知識を振り絞って記事を書いてる学生です。紹介文読むよりTwitterでフォローしたほうが早いかも？</p>
+						</div>
+						<div class="tww">NEW ARTICLE</div>
+						<ul class="disc">
+							<li><a href="#">ノートのように管理できるEvernote</a></li>
+							<li><a href="#">どこでもDropbox</a></li>
+							<li><a href="#"></a></li>
 						</ul>
-					</div>
-				</li>
-				<li><a href="http://digitalsurgeons.com">The first step</a>
-					<div class="dropdown">
-						<ul>
-							<li><a href="">Browser</a></li>
-							<li><a href="">Mail</a></li>
-							<li><a href="">Shopping</a></li>
-							<li><a href="">SNS</a></li>
-							<li><a href="">Important Word</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="#">Others</a></li>
-			</ul>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div id="container">
-			<div id="main" class="twelve columns" style="background:white">
-				<div id="news" class="nine columns" style="">
-					<div class="tww">title</div>
-						<p>ttesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetetesttesttestetetete<br>tetetee
-						tetetetetetetetetetetet</p>
-						<p>ttesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetetesttesttestetetete<br>tetetee
-						tetetetetetetetetetetet</p>
-					<div class="tww">title</div>
-					<p>testtesttestetetete<br>tetetee
-						tetetetetetetetetetetet</p>
-						<p>ttesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetetesttesttestetetete<br>tetetee
-					<div class="tww">title</div>
-					<p>testtesttestetetete<br>tetetee
-						tetetetetetetetetetetet</p>
-						<p>ttesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetetesttesttestetetete<br>tetetee
-					<div class="tww">title</div>
-					<p>testtesttestetetete<br>tetetee
-						tetetetetetetetetetetet</p>
-						<p>ttesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetettesttesttestetetetesttesttestetetete<br>tetetee
-					<div class="tww">title</div>
-				</div><!--news-->
-				<div id="rightbar" class="three columns" style="">
-					<div class="tww">SELF-INTRODUCTIOR</div>
-					<img src="picture/Icon/MyIconGreen.png"
-					<p>samplesamplesampekfajkfl;jajfajkldf;df;fjad;jdf;lkfjalkjfalkjlfk;ajkfjdflk;dajfklal</p>
-					<div class="tww">BLOG ARCHIVE</div>
-					<p>sample<br>sample<br>sampel</p>
-					<div class="tww">LINK</div>
-					<div class="title" style="border-color:#6AA2DB;background:#98C5F3;"><a href="#">Twitter</a></div>
-					<div class="title" style="border-color:#3366ff;background:#ccccff;"><a href="#">Facebook</a></div>
-					<div class="title" style="border-color:#ffff66;background:#ffffcc;"><a href="#">Amazon</a></div>
-					<div class="title" style="border-color:#808080;background:#d3d3d3;"><a href="#">Github</a></div>
-					<div class="tww" style="margin-top:30px;">TwitterTL</div>
-					<a class="twitter-timeline"  href="https://twitter.com/LoathingAnd"  data-widget-id="496312113124495362">@LoathingAnd����̃c�C�[�g </a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				</div><!--rightbar-->
-			</div><!--main-->
-		</div><!--container-->
-		<!---->
-		<div id="skiplink_3" style="position: relative;">
-			<p class="skiplink medium default">
-			<a href="#" gumby-goto="top"><i class="icon-up-open-big"></i> Top of page</a>
-			</p>
-		</div><!--skiplink_3-->
-	</div><!--row-->
-	<div id="footer" style="">footer</div>
-	<script>
-	var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
-	if(!oldieCheck) {
+						<div class="rightM">
+						</div>
+						<div class="tww">BLOG ARCHIVE</div>
+						<div class="rightM">
+							<ul class="disc">
+								<li><a href="#">2014/8</a></li>
+								<li><a href="#">2014/9</a></li>
+							</ul>
+						</div>
+						<div class="tww">LINK</div>
+						<div class="title" style="border-color:#6AA2DB;background:#98C5F3;"><a href="https://twitter.com/LoathingAnd">Twitter</a></div>
+						<div class="title" style="border-color:#3366ff;background:#ccccff;"><a href="#">Facebook</a></div>
+						<div class="title" style="border-color:#ffff66;background:#ffffcc;"><a href="http://www.amazon.co.jp/registry/wishlist/3FC9MQJ26GK20">Amazon</a></div>
+						<div class="title" style="border-color:#808080;background:#d3d3d3;"><a href="#">Github</a></div>
+						<div class="tww" style="margin-top:30px;">TwitterTL</div>
+						<a class="twitter-timeline"  href="https://twitter.com/LoathingAnd"  data-widget-id="496312113124495362">@LoathingAndからのツイート </a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div><!--rightbar-->
+				</div><!--main-->
+			</div><!--container-->
+		</div><!--row-->
+		<div id="footer" style="">Copyright &copy 2014 Hunasu All Rights Reserved.</div>
+		<script>
+var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+if(!oldieCheck) {
 	document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
-	} else {
+} else {
 	document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
-	}
+}
 	</script>
 	<script>
-	if(!window.jQuery) {
+if(!window.jQuery) {
 	if(!oldieCheck) {
-	  document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
-	} else {
+		document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
+} else {
 	  document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>');
+}
 	}
-	}
-	</script>
+	  </script>
 
-	<script gumby-touch="js/libs" src="js/libs/gumby.js"></script>
-	<script src="js/libs/ui/gumby.retina.js"></script>
-	<script src="js/libs/ui/gumby.fixed.js"></script>
-	<script src="js/libs/ui/gumby.skiplink.js"></script>
-	<script src="js/libs/ui/gumby.toggleswitch.js"></script>
-	<script src="js/libs/ui/gumby.checkbox.js"></script>
-	<script src="js/libs/ui/gumby.radiobtn.js"></script>
-	<script src="js/libs/ui/gumby.tabs.js"></script>
-	<script src="js/libs/ui/gumby.navbar.js"></script>
-	<script src="js/libs/ui/jquery.validation.js"></script>
-	<script src="js/libs/gumby.init.js"></script>
+	  <script gumby-touch="js/libs" src="js/libs/gumby.js"></script>
+	  <script src="js/libs/ui/gumby.retina.js"></script>
+	  <script src="js/libs/ui/gumby.fixed.js"></script>
+	  <script src="js/libs/ui/gumby.skiplink.js"></script>
+	  <script src="js/libs/ui/gumby.toggleswitch.js"></script>
+	  <script src="js/libs/ui/gumby.checkbox.js"></script>
+	  <script src="js/libs/ui/gumby.radiobtn.js"></script>
+	  <script src="js/libs/ui/gumby.tabs.js"></script>
+	  <script src="js/libs/ui/gumby.navbar.js"></script>
+	  <script src="js/libs/ui/jquery.validation.js"></script>
+	  <script src="js/libs/gumby.init.js"></script>
 
 
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
+	  <script src="js/plugins.js"></script>
+	  <script src="js/main.js"></script>
 
- </body>
+	</body>
 </html>
