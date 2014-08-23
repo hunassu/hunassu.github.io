@@ -149,10 +149,46 @@
 							<div class="shareButton">
 								<a href="http://b.hatena.ne.jp/entry/hunassu.github.io" class="hatena-bookmark-button" data-hatena-bookmark-title="HunassuLife Home" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none; margin-right:5px;margin-left:5px;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
 							</div>
+							<!--Feedly-->
+							<div class="shareButton">
+<script type="text/javascript">
+var url = 'http://knowledgecolors.net/atom.xml'; // RSSフィードのURLを入力
+var phpPath = '/feedly/getFeedlyCount.php'; // PHPファイルのパスを記述
+
+try {
+    var xmlHttpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+} catch(e) {
+    var xmlHttpRequest = new XMLHttpRequest();
+}
+xmlHttpRequest.onreadystatechange = function()
+{
+    var result = document.getElementById('feedly-count');
+    var READYSTATE_COMPLETED = 4;
+    var HTTP_STATUS_OK = 200;
+
+    if( this.readyState == READYSTATE_COMPLETED ) {
+        if( this.status == HTTP_STATUS_OK ) {
+            var subscribers = this.responseText;
+            result.innerHTML = subscribers;
+        } else {
+            result.innerHTML = 'Failed';
+        }
+    } else {
+        result.innerHTML = 'Loading...';
+    }
+}
+xmlHttpRequest.open( 'GET', phpPath + '?feed=' + url, true );
+xmlHttpRequest.send( null );
+</script>
+								<div id="feedly-followers">
+				<span id="feedly-count" class="fdly-count"><?php echo $subscribers; ?></span>
+				<a href=’http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fushigyu.net%2Ffeed%2F’ target=’_blank’><img id=’feedlyFollow’ src=’http://s3.feedly.com/img/follows/feedly-follow-rectangle-flat-medium_2x.png’ alt=’follow us in feedly’ width=’71′ height=’28′></a>
+			</div>
+							</div>
 							<!--Google-->
 							<div class="shareButton">
-							<span class="g-plus shareButton" data-action="share" data-annotation="vertical-bubble" data-height="60" style="margin-left:5px; width:80px; margin-right:5px; padding-right:15px;">
-							</span>
+								<span class="g-plus shareButton" data-action="share" data-annotation="vertical-bubble" data-height="60" style="margin-left:5px; width:80px; margin-right:5px;">
+								</span>
 							</div>
 						</div><!--share-->
 						<div id="recommend">
