@@ -59,6 +59,10 @@ p {
 	margin-top:100px;
 }
 
+.shareButton{
+	float:left;
+}
+
 #recommend {
 	margin-top:30px;
 	margin-bottom:50px;
