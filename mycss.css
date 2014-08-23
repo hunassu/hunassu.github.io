@@ -63,10 +63,9 @@ p {
 .shareButton{
 	float:left;
 	margin-left:10px;
-	margin-right:12px;
+	margin-right:11px;
 	margin-bottom:30px;
 	height:65px;
-	background-color:#ffffcc;
 }
 
 #recommend {
@@ -90,7 +89,7 @@ p {
 }
 
 #rightbar img {
-	margin-left:75px;
+	margin-left:80px;
 	width:80px;
 }
 
