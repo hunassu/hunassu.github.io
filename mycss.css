@@ -62,6 +62,7 @@ p {
 
 #recommend {
 	margin-top:30px;
+	margin-bottom:50px;
 }
 
 #recommend p{
@@ -74,6 +75,9 @@ p {
 	border-style:solid;
 	border-color: #ccccff;
 	border-width:1px;
+}
+
+#rightbar {
 }
 
 #rightbar img {
@@ -93,7 +97,8 @@ p {
 	padding-left:30px;
 }
 
-.rightM {
+.blogArchive {
+	width:100%;
 	padding-left:40px;
 }
 
@@ -103,13 +108,12 @@ p {
 
 #pagetop {
 	position: fixed;
-	top: 95%;
+	top: 90%;
 	left: 0;
 }
 
 #footer {
 	background-color: #d3d3d3;
 	text-align:center;
-	height:20px;
-	bottom:0;
+	bottom:0px;
 }
