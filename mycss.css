@@ -64,6 +64,7 @@ p {
 .shareButton{
 	float:left;
 	margin-left:10px;
+	margin-right:0px;
 }
 
 #recommend {
