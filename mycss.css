@@ -74,9 +74,16 @@ p {
 }
 
 #recommend p{
-	font-size:20px;
+	text-align:center;
+	font-size:18px;
 	background:#ddddff;
 }
+
+.small p{
+	font-size:16px;
+	background-color:#022033;
+}
+
 
 .smallArticle {
 	margin-top:20px;
