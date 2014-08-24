@@ -70,26 +70,43 @@ p {
 
 #recommend {
 	margin-top:30px;
-	margin-bottom:50px;
 }
 
-#recommend p{
-	text-align:center;
-	font-size:18px;
-	background:#ddddff;
+/*バッジ*/
+.badge {
+	background-color:#9966ff;
+	color: white;
+	font-size:12px;
+	padding: 2px 4px 3px;
+	position: absolute;
+	top: -5px;
+	right: -5px;
 }
-
-.small p{
-	font-size:16px;
-	background-color:#022033;
-}
-
 
 .smallArticle {
 	margin-top:20px;
 	border-style:solid;
 	border-color: #ccccff;
 	border-width:1px;
+	position: relative;
+}
+
+.smallArticleTitle{
+	font-weight:bold;
+}
+
+.smallArticle p{
+	text-align:center;
+	font-size:14px;
+	padding:0px;
+	margin:0px;
+}
+
+.smallArticle img{
+	height:143px;
+	border-style:solid;
+	border-color:#ccccff;
+	border-bottom-width:1px;
 }
 
 #rightbar {
