@@ -70,7 +70,9 @@ p {
 
 #recommend {
 	margin-top:30px;
+	margin-right:5px;
 }
+
 
 /*バッジ*/
 .badge {
@@ -104,6 +106,7 @@ p {
 
 .smallArticle img{
 	height:143px;
+	width:281px;
 	border-style:solid;
 	border-color:#ccccff;
 	border-bottom-width:1px;
